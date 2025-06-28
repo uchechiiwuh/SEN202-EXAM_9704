@@ -21,6 +21,11 @@ This project focuses on **API development** as part of the SEN202 examination re
 ## 📝 License
 This project is created for educational purposes as part of the SEN202 examination.
 
+## DJANGO ADMIN PASSWORD AND USERNAME:
+* username is uchechiiwuh
+* password is echolacc
+## Screenshot of the django admin page :
+- ![image of the screenshot](<Screenshot (22).png>)
 ---
 
 *Last updated: june 2025*
