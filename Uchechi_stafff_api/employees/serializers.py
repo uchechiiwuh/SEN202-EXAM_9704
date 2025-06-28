@@ -3,9 +3,7 @@ from .models import Manager, Intern, Address
 
 
 class AddressSerializer(serializers.ModelSerializer):
-    """
-    Serializer for Address model
-    """
+    
     
     class Meta:
         model = Address
@@ -70,9 +68,7 @@ class ManagerDetailSerializer(ManagerSerializer):
 
 
 class ManagerCreateUpdateSerializer(serializers.ModelSerializer):
-    """
-    Separate serializer for create/update operations that excludes sensitive fields
-    """
+    
     
     class Meta:
         model = Manager
@@ -83,9 +79,7 @@ class ManagerCreateUpdateSerializer(serializers.ModelSerializer):
 
 
 class InternCreateUpdateSerializer(serializers.ModelSerializer):
-    """
-    Separate serializer for create/update operations
-    """
+    
     
     class Meta:
         model = Intern
